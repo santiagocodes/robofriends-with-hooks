@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align='center'>RoboFriends</h1>
+<p align='center'>
+Search Engine for your Robot Friends <br>using <a href='https://github.com/facebook/create-react-app'>ReactJS</a> and <a href='https://tachyons.io/'>Tachyons</a>. <br>
+<!-- <a href="https://santiagocodes-weather-app.herokuapp.com/"><img src="https://img.shields.io/badge/DEMO-WeatherApp-9cf.svg?style=flat"></a> -->
+</p>
+
+<img height="75px" align='left' src="https://santiagocodes.github.io/santiagocodes/images/octocat-santiagocodes.png" alt="santiagocodes octocat" />
 
 ## Available Scripts
 
@@ -66,3 +72,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<h2 align='center'>Support</h2>
+
+<p align='center'>
+Reach out at any of the following places.<br>
+    <a href="https://twitter.com/maricstgo"><img src="https://img.shields.io/badge/twitter.com-@maricstgo-blue?style=flat&logo=twitter"></a>&nbsp;
+    <a href="https://dev.to/santiagocodes"><img src="https://img.shields.io/badge/dev.to-@santiagocodes-black?style=flat&logo=dev.to"></a>&nbsp;
+    <a href="https://santiagocodes.com"><img src="https://img.shields.io/badge/website-santiagocodes.com-blueviolet?style=flat"></a>&nbsp;
+</p>
