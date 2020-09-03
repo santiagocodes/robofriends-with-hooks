@@ -1,7 +1,7 @@
 <h1 align='center'>RoboFriends</h1>
 <p align='center'>
 Search Engine for your Robot Friends <br>using <a href='https://github.com/facebook/create-react-app'>ReactJS</a> and <a href='https://tachyons.io/'>Tachyons</a>. <br>
-<!-- <a href="https://santiagocodes-weather-app.herokuapp.com/"><img src="https://img.shields.io/badge/DEMO-WeatherApp-9cf.svg?style=flat"></a> -->
+<a href="https://santiagocodes.github.io/robofriends/"><img src="https://img.shields.io/badge/DEMO-RoboFriends-9cf.svg?style=flat"></a>
 </p>
 
 <img height="75px" align='left' src="https://santiagocodes.github.io/santiagocodes/images/octocat-santiagocodes.png" alt="santiagocodes octocat" />
@@ -42,6 +42,16 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Deployment using GitHub Pages
+
+Add `"homepage": "http://mywebsite.com/relativepath",` to your package.json.
+
+Install GitHub Pages by running `npm install --save gh-pages`. Once that is done, add `"predeploy": "npm run build",` and `"deploy": "gh-pages -d build",` inside the scripts on your package.json.
+
+Run `npm run predeploy` (in case you haven't ran the script `npm run build` yet) and follow that by running `npm run deploy`.
+
+For more information see the create-react-app [documentation](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom).
 
 ## Learn More
 
