@@ -1,7 +1,7 @@
 <h1 align='center'>RoboFriends</h1>
 <p align='center'>
-Search Engine for your Robot Friends <br>using <a href='https://github.com/facebook/create-react-app'>ReactJS</a> and <a href='https://tachyons.io/'>Tachyons</a>. <br>
-<a href="https://santiagocodes.github.io/robofriends/"><img src="https://img.shields.io/badge/DEMO-RoboFriends-9cf.svg?style=flat"></a>
+Search Engine for your Robot Friends <br>using <a href='https://github.com/facebook/create-react-app'>ReactJS</a>, Hooks, and <a href='https://tachyons.io/'>Tachyons</a>. <br>
+<a href="https://santiagocodes.github.io/robofriends-with-hooks/"><img src="https://img.shields.io/badge/DEMO-RoboFriends-9cf.svg?style=flat"></a>
 </p>
 
 <img height="75px" align='left' src="https://santiagocodes.github.io/santiagocodes/images/octocat-santiagocodes.png" alt="santiagocodes octocat" />

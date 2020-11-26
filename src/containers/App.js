@@ -19,7 +19,7 @@ function App() {
    // }
    const [robots, setRobots] = useState([]) 
    const [searchField, setSearchField] = useState('')
-   const [count, setCount] = useState(0)
+   // const [count, setCount] = useState(0)
 
    // componentDidMount() {
    //    fetch('https://jsonplaceholder.typicode.com/users')
@@ -30,6 +30,8 @@ function App() {
       fetch('https://jsonplaceholder.typicode.com/users')
          .then((response) => response.json())
          .then((users) => setRobots(users));
+         // console.log(count)
+   // }, [count]) // only run if count changes. it fetches again as well.
    }, [])
 
 
@@ -51,7 +53,7 @@ function App() {
       ) : (
          <div className="tc mb5">
             <h1 className="f1">RoboFriends</h1>
-            <button onClick={() => setCount(count+1)}>Click Me!</button>
+            {/* <button onClick={() => setCount(count+1)}>Click Me!</button> */}
         {/* <SearchBox searchChange={this.onSearchChange} /> */}
             <SearchBox searchChange={onSearchChange} />
             {/* <Scroll> */}
